@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <hmtl lang="en">
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+        <!-- import font in head -->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Portfolio</title>
-    </head>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Portfolio - Sophia</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/86ca6b14e5.js" crossorigin="anonymous"></script>
+        <!-- copy paste icon website -->
+      </head>
     <body>
-        <h1>This is my Portfolio</h1>
-        <p>Update my project onto here in listed format</p>
+        <div id= "header">
+            <div class= "container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+            <h1>This is my Portfolio</h1>
+            <p>Update my project onto here in listed format</p>
+        </div>
     </body>
 </hmtl>
