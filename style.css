@@ -83,6 +83,10 @@ nav ul li a:hover::after{
     color: #F9B7D2;
 }
 
+.header-text h2{
+    color: #F9B7D2;
+}
+
 /* -----------about----------- */
 #about{
     padding: 80px 0;
@@ -102,6 +106,7 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 15px;
+    height: auto;
 }
 
 .about-col-2{
@@ -361,3 +366,27 @@ nav .fas{
     display: block;
 }
 /* :hover alters transition of button before clicking and just hovering */
+
+/* Portfolio Page */
+.workPortfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    flex: 1 0 25%;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+}
+
+.work-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; 
+}
+
+.work-item p {
+    margin-top: 10px;
+    text-align: center; /* Center the text */
+    font-size: 16px;
+}
