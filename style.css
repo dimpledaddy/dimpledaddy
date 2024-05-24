@@ -385,13 +385,18 @@ nav .fas{
     border-radius: 10px; 
 }
 
+.work-item h4 {
+    margin-top: 10px;
+    text-align: center; /* Center the text */
+    color: #F9B7D2;
+}
 .work-item p {
     margin-top: 10px;
     text-align: center; /* Center the text */
-    font-size: 16px;
-    color: #F9B7D2;
+    font-size: 14px;
 }
 
 .design-description p {
     font-size: 14px;
+    text-align: center;
 }
